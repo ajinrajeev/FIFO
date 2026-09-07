@@ -8,8 +8,7 @@ simulation with Icarus Verilog:
 | [`synchronous_fifo/`](synchronous_fifo) | Single shared `clk` | Phase-bit pointer comparison |
 | [`asynchronous_fifo/`](asynchronous_fifo) | Independent `wclk` / `rclk` | Gray-coded pointers + dual-flop synchronizers |
 
-Each subfolder is self-contained (`rtl/`, `tb/`, `sim/run.sh`,
-`docs/waveform.png`) with its own README covering the design in
+Each subfolder is self-contained with its own README covering the design in
 detail — this page just introduces both and explains how they relate.
 
 ## Synchronous vs. asynchronous — why two designs
