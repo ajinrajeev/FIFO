@@ -65,8 +65,6 @@ sliced down to the lower `ADDR_WIDTH` bits.
   async_fifo_top.v     top-level module wiring everything together
   async_fifo_tb.v      testbench: two independent clocks, write/read
                        bursts, FIFO-order check, full/empty monitors
-  a.out                compiled Icarus Verilog simulation executable
-  async_fifo_tb.vcd    Waveform dump, viewable in GTKWave
   waveform.png         example simulation waveform in gtkwave
 
 ```
