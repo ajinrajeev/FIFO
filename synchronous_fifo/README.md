@@ -22,8 +22,6 @@ from `DEPTH-1` back to `0` and toggles its own phase bit on wrap.
 ```
   sync_fifo.v         FIFO design (RAM + pointer + full/empty logic)
   tb_fifo.v           testbench: reset, write burst, read burst
-  a.out               compiled Icarus Verilog simulation executable
-  sync_fifo.vcd       Waveform dump, viewable in GTKWave
   waveform.png        example simulation waveform in gtkwave
 ```
 
